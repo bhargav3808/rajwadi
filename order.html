@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HOTEL RAJWADI</title>
+
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+
+	 <link rel="stylesheet" type="text/css" href="style.css">
+	 <link rel="stylesheet" type="text/css" href="responsive.css">
+<body>
+	<section id="order form" class="align-items-center m-5">
+		<div class="col-md-6">
+		<img id="mainbg" src="rajwadilogo.jpg" class="rounded" style="max-width: 100%; align-items: center; height: auto;">			
+		<h2>order please !</h2>
+		</div>
+
+		<form action="order.php" method="POST">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Name</label>
+      <input type="text" class="form-control" placeholder="name" name="nm">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Phone number</label>
+      <input type="Phone" class="form-control" placeholder="phone" name="phone">
+    </div>
+  </div>
+ <!--  <div class="form-group">
+    <label for="inputAddress">other</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="">
+  </div> -->
+  <div class="form-group col-md-4">
+      <label for="inputState">paying option</label>
+      <select id="inpuState" class="form-control" name="method">
+        <option selected>cash on delivary</option>
+        <option>UPI</option>
+        <option>paytm</option>
+        <option>google pay</option>
+      </select>
+    </div>
+     <div class="form-group">
+    <label>order</label>
+    <input type="text" class="form-control" name="orderlist" placeholder="ex. thepla 2, bhakhri 2, pizza 1 etc. 	">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">address</label>
+      <input type="text" class="form-control" name="add" id="inputCity">
+    </div>
+    <!-- <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div> -->
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+    <!--   <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label> -->
+    </div>
+  </div>
+  <button type="submit" name="submitBtn" class="btn btn-primary">Place order</button>
+</form>
+
+	</section>
+</body>
+</html>

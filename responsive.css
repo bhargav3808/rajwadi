@@ -1,0 +1,55 @@
+/*@media(mac-width:1024px){
+
+/* about section */
+
+}
+
+
+@media (max-width : 991px){
+	/*  custon class */
+
+	.text-content{
+		width: 100%;
+}
+
+/* navbar brand */
+.navigation-wrep .navbar-beand img{
+	height: 3.8125rem;
+}
+.navigation-wrep{
+	text-align: center;
+	background-color: var(--white-color);
+}
+.navigation-wrep .nav-link{
+	line-height: 1.875rem;
+}
+.top-banner{
+	padding: 9.375rem 0 9.375rem;
+}
+
+/* carousel design */
+
+@media (max-width : 767px){
+
+	/*costom css*/
+h1{
+	font-size: 2.0625rem;
+}
+h2{
+	font-size: ;
+}
+/* top banner */
+.top-banner{
+	padding: 10.875rem 0 9.375rem;
+}
+
+.story-section{
+
+	height: auto;
+	padding: 3rem 0;
+}
+
+}
+@media(max-width: 330px){
+
+}*/
